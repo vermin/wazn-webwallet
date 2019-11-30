@@ -5,7 +5,6 @@ Official WAZN Web Wallet
 
 This web wallet is doing everything client-side to deliver outstanding privacy to users.
 The server is used solely to optimize the communication with the daemon and to compress the blockchain.  
-  * Note: This requirement may be removed in the future once daemons evolve and return enough data.  
 
 ## Security
 **No keys, seeds, or sensitive data is sent to the server**  
