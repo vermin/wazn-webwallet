@@ -3,8 +3,8 @@ Official WAZN Web Wallet
 
 [![License](https://img.shields.io/badge/license-EUPL--1.2-red)](https://opensource.org/licenses/EUPL-1.2)
 
-This web wallet is doing everything client-side to deliver outstanding privacy to users.
-The server is used solely to optimize the communication with the daemon and to compress the blockchain.  
+This web wallet is doing everything client-side to deliver outstanding privacy to users.  
+Server is used solely to optimize the communication with the daemon and to compress the blockchain.  
 
 ## Security
 **No keys, seeds, or sensitive data is sent to the server**  
