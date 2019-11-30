@@ -7,12 +7,12 @@ This web wallet is doing everything client-side to deliver outstanding privacy t
 The server is used solely to optimize the communication with the daemon and to compress the blockchain.  
   * Note: This requirement may be removed in the future once daemons evolve and return enough data.  
 
-### Security
+## Security
 **No keys, seeds, or sensitive data is sent to the server**  
 If you find a potential security issue, please contact our support and we will look into it promptly.  
 Encryption is done with a certified library, [Tweetnacl.Js.](https://github.com/dchest/tweetnacl-js)
 
-### Features (non-exhaustive)
+## Features (non-exhaustive)
 - Complete wallet sync without server side processing for security
 - Receive/send history
 - Mempool support to check incoming transfers
@@ -23,7 +23,7 @@ Encryption is done with a certified library, [Tweetnacl.Js.](https://github.com/
 - View only wallet
 - Basic network stats
 
-### License
+## License
 ```
 Licensed under the EUPL-1.2
 Copyright (c) 2019 WAZN Project
