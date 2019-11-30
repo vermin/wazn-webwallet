@@ -4,14 +4,14 @@ Official WAZN Web Wallet
 [![License](https://img.shields.io/badge/license-EUPL--1.2-red)](https://opensource.org/licenses/EUPL-1.2)
 
 This web wallet is doing everything client-side to deliver outstanding privacy to users.  
-Server is used solely to optimize the communication with the daemon and to compress the blockchain.  
+Server is used solely to optimize the communication with the daemon and to compress the blockchain.
 
 ## Security
 **No keys, seeds, or sensitive data is sent to the server**  
 If you find a potential security issue, please contact our support and we will look into it promptly.  
 Encryption is done with a certified library, [Tweetnacl.Js.](https://github.com/dchest/tweetnacl-js)
 
-## Features (non-exhaustive)
+## Features
 - Complete wallet sync without server side processing for security
 - Receive/send history
 - Mempool support to check incoming transfers
