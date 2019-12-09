@@ -17,7 +17,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
+	<title>WAZN Wallet</title>
 </head>
 <body>
 
@@ -29,14 +29,14 @@
 <script>
 	var clickButton = document.getElementById('payButton');
 
-	function MasariLoaded(){
+	function WaznLoaded(){
 		clickButton.disabled = false;
 		clickButton.addEventListener("click", function(){
-			MasariApi.makeTransfer({
+			WaznApi.makeTransfer({
 				amount:10,
-				address:'wallet.masaricoin.com',
-				description:'Description',
-				destName:'Webwallet',
+				address:'wallet.wazn.com',
+				description:'WAZN Secure 100% Clientside Web Wallet',
+				destName:'WAZN Webwallet',
 				redirect:encodeURIComponent(window.location.href)
 			}).then(function(txHash){
 
@@ -44,12 +44,12 @@
 		});
 
 		console.log('LOADED CALLBACK');
-		MasariApi.hasWallet().then(function(hasWAllet){
+		WaznApi.hasWallet().then(function(hasWAllet){
 			console.log('HAS WALLET');
 			console.log(hasWAllet);
 		});
 	}
-	MasariApi.init().then(MasariLoaded);
+	WaznApi.init().then(WaznLoaded);
 
 </script>
 
