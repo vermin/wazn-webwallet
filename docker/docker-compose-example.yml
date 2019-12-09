@@ -12,7 +12,7 @@ volumes:
 
 services:
   webserver:
-    image: registry.gitlab.com/gnock/masari-webwallet/webserver
+    image: registry.gitlab.com/project-wazn/wazn-webwallet/webserver
     networks:
       - net
     deploy:
@@ -22,7 +22,7 @@ services:
         delay: 10s
 
   php:
-    image: registry.gitlab.com/gnock/masari-webwallet/php
+    image: registry.gitlab.com/project-wazn/wazn-webwallet/php
     networks:
       - net
     volumes:
@@ -38,7 +38,7 @@ services:
         delay: 10s
 
   php_cache_builder:
-    image: registry.gitlab.com/gnock/masari-webwallet/php
+    image: registry.gitlab.com/project-wazn/wazn-webwallet/php
     command: php blockchain.php
     networks:
       - net

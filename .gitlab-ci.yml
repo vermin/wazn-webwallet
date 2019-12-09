@@ -4,7 +4,7 @@ variables:
   DOCKER_DRIVER: overlay
   DOCKER_CHANNEL: stable
   DOCKER_VERSION: 17.06.1-ce
-  
+
 services:
   - docker:dind
 
@@ -27,11 +27,11 @@ buid:
 
        - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN registry.gitlab.com
 
-       - docker build -t registry.gitlab.com/masari-project/masari-webwallet/php -f docker/Webserver-php.dockerfile .
-       - docker push registry.gitlab.com/masari-project/masari-webwallet/php
+       - docker build -t registry.gitlab.com/wazn-project/wazn-webwallet/php -f docker/Webserver-php.dockerfile .
+       - docker push registry.gitlab.com/wazn-project/wazn-webwallet/php
 
-       - docker build -t registry.gitlab.com/masari-project/masari-webwallet/webserver -f docker/Webserver.dockerfile .
-       - docker push registry.gitlab.com/masari-project/masari-webwallet/webserver
+       - docker build -t registry.gitlab.com/wazn-project/wazn-webwallet/webserver -f docker/Webserver.dockerfile .
+       - docker push registry.gitlab.com/wazn-project/wazn-webwallet/webserver
     artifacts:
       paths:
       - src/
