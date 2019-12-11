@@ -1,7 +1,7 @@
 {
   "website":{
-	"title":"Masari Billetera oficial",
-	"description":"Billetera oficial en línea para la moneda de Masari: anónima, segura y totalmente manejada en su navegador para una seguridad óptima"
+	"title":"WAZN Billetera oficial",
+	"description":"Billetera oficial en línea para la moneda de WAZN: anónima, segura y totalmente manejada en su navegador para una seguridad óptima"
   },
   "messages": {
 	"menu": {
@@ -62,8 +62,8 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Masari Cartera Segura",
-	  "tagLine": "La forma más sencilla de usar Masari - en cualquier lugar y en cualquier momento",
+	  "mainTitle": "WAZN Cartera Segura",
+	  "tagLine": "La forma más sencilla de usar WAZN - en cualquier lugar y en cualquier momento",
 	  "actions": {
 		"loadWallet": "Cargar mi cartera",
 		"importWallet": "Importar carteta",
@@ -81,7 +81,7 @@
 		},
 		"technology": {
 		  "title": "Tecnología única",
-		  "description": "Conectado directamente a la blockchain de Masari.!"
+		  "description": "Conectado directamente a la blockchain de WAZN.!"
 		},
 		"openSource": {
 		  "title": "Completamente de código abierto",
@@ -105,7 +105,7 @@
 		"emptyWallet": "Actualmente no tienes fondos en esta billetera..",
 		"waitSync": "Por favor, espere hasta que la cartera se actualice.",
 		"beReallyPatient": "La configuración inicial puede tomar algún tiempo...",
-		"getMSRAddress": "Recibir MSR"
+		"getWAZNAddress": "Recibir WAZN"
 	  },
 	  "txDetails":{
 		"title":"Detalles de la transacción",
@@ -142,7 +142,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"Eso fue simple. Tu cuenta esta lista!",
-		"subtitle":"Prepárate para usar Masari como nunca lo has hecho",
+		"subtitle":"Prepárate para usar WAZN como nunca lo has hecho",
 		"passwordSelectionBlock":{
 		  "label":"Protege tu billetera"
 		},
@@ -165,8 +165,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Riesgos de usar MasariWallet",
-		"content":"MasariWallet es una interfaz basada en web. Te ayuda a usar Masari sin ejecutar un nodo Masari completo. <br/>Le recomendamos que trate a MasariWallet como tratará su billetera real.."
+		"title":"Riesgos de usar WAZNWallet",
+		"content":"WAZNWallet es una interfaz basada en web. Te ayuda a usar WAZN sin ejecutar un nodo WAZN completo. <br/>Le recomendamos que trate a WAZNWallet como tratará su billetera real.."
 	  }
 	},
 	"donatePage":{
@@ -176,9 +176,9 @@
 		"title":"Billetera web",
 		"content":"Esta billetera web es desarrollada por Gnock en su tiempo libre..<br/>Si quieres ayudar al desarrollo, ayuda a pagar por los servidores de esta aplicación o considera hacer una donación: <br/><br/>"
 	  },
-	  "masariFundBlock":{
-		"title":"Fondo de desarrollo de Masari",
-		"content":"Para ayudar a Masari, puedes donar en estas direcciones."
+	  "waznFundBlock":{
+		"title":"Fondo de desarrollo de WAZN",
+		"content":"Para ayudar a WAZN, puedes donar en estas direcciones."
 	  }
 	},
 	"supportPage":{
@@ -187,12 +187,12 @@
 	  "getInTouchBlock":{
 		"title":"Mantengámonos en contacto!",
 		"content":"¿Tiene ideas o comentarios que podrían ayudarnos a mejorar la billetera? Contáctenos!",
-		"discord":"Canal de Masari en Discord"
+		"discord":"Canal de WAZN en Discord"
 	  }
 	},
 	"networkPage":{
 	  "title":"Estado de red",
-	  "subtitle":"Perspectivas sobre la red de Masari.",
+	  "subtitle":"Perspectivas sobre la red de WAZN.",
 	  "statsBlock":{
 		"hashrate":"Red de hashrate",
 		"height":"Altura de blockchain",
@@ -202,7 +202,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Enviar MSR",
+	  "title":"Enviar WAZN",
 	  "sendBlock":{
 		"address":{
 		  "label":"Dirección de destino",
@@ -232,7 +232,7 @@
 	  },
 	  "thankYouDonationModal":{
 		"title":"Gracias por tu donación!",
-		"content":"Apreciamos tu ayuda. <br/>Esta donación ayudará a mejorar a Masari.",
+		"content":"Apreciamos tu ayuda. <br/>Esta donación ayudará a mejorar a WAZN.",
 		"confirmText":"OK"
 	  },
 	  "transferSentModal":{
@@ -269,7 +269,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Recibir MSR",
+	  "title":"Recibir WAZN",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Su dirección para recibir fondos.:",
@@ -297,7 +297,7 @@
 	},
 	"miningPage":{
 	  "title":"Mina directamente en tu navegador",
-	  "subtitle":"Apoya la red minando y se te recompensa con MSR",
+	  "subtitle":"Apoya la red minando y se te recompensa con WAZN",
 	  "parameterBlock":{
 		"title":"Parámetros",
 		"labelDestinationAddress":"Mi billetera",
@@ -311,7 +311,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Max Hashrate",
 		"dedicatedHardware":"Al dedicar software y hardware de minería, podría ganar más y ayudar a descentralizar la red.",
-		"miningHandledBy":"Esta minería es manejada por el grupo de minería get.masaricoin.com"
+		"miningHandledBy":"Esta minería es manejada por el grupo de minería http://pool.wazn.io"
 	  }
 	},
 	"settingsPage":{

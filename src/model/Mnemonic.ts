@@ -2,6 +2,7 @@
 /*
  * Copyright (c) 2018, Gnock
  * Copyright (c) 2018, The Masari Project
+ * Copyright (c) 2019 WAZN Project
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  *
@@ -172,7 +173,7 @@ export class Mnemonic{
 	static mn_random(bits : number) {
 		if (bits % 32 !== 0) throw "Something weird went wrong: Invalid number of bits - " + bits;
 		let array = new Uint32Array(bits / 32);
-		if (!window.crypto) throw "Unfortunately MyMonero only runs on browsers that support the JavaScript Crypto API";
+		if (!window.crypto) throw "Unfortunately WAZN Web Wallet only runs on browsers that support the JavaScript Crypto API";
 		let i = 0;
 
 		function arr_is_zero() {

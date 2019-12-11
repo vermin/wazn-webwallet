@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 2018, Gnock
  * Copyright (c) 2018, The Masari Project
+ * Copyright (c) 2019 WAZN Project
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  *
@@ -112,7 +113,7 @@ export class TransactionsExplorer {
 			console.error('Weird tx !', rawTransaction);
 			return false;
 		}
-		
+
 		try {
 			return parseInt(rawTransaction.vout[0].amount) !== 0;
 		} catch(err) {
@@ -585,7 +586,7 @@ export class TransactionsExplorer {
 				else if (usingOuts_amount.compare(totalAmount) === 0) {
 					//create random destination to keep 2 outputs always in case of 0 change
 					let fakeAddress = Cn.create_address(CnRandom.random_scalar()).public_addr;
-					console.log("Sending 0 XMR to a fake address to keep tx uniform (no change exists): " + fakeAddress);
+					console.log("Sending 0 WAZN to a fake address to keep tx uniform (no change exists): " + fakeAddress);
 					dsts.push({
 						address: fakeAddress,
 						amount: 0
@@ -625,9 +626,6 @@ export class TransactionsExplorer {
 						reject(e);
 					});
 				});
-
-				//https://github.com/moneroexamples/openmonero/blob/ebf282faa8d385ef3cf97e6561bd1136c01cf210/README.md
-				//https://github.com/moneroexamples/openmonero/blob/95bc207e1dd3881ba0795c02c06493861de8c705/src/YourMoneroRequests.cpp
 
 			});
 

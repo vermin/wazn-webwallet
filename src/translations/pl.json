@@ -1,7 +1,7 @@
 {
   "website":{
-	"title":"Oficjalny portfel internetowy Masari",
-	"description":"Oficjalny portfel online dla waluty Masari - anonimowy, zabezpieczony i w pełni obsługiwany w przeglądarce w celu zapewnienia optymalnego bezpieczeństwa"
+	"title":"Oficjalny portfel internetowy WAZN",
+	"description":"Oficjalny portfel online dla waluty WAZN - anonimowy, zabezpieczony i w pełni obsługiwany w przeglądarce w celu zapewnienia optymalnego bezpieczeństwa"
   },
   "messages": {
 	"menu": {
@@ -62,8 +62,8 @@
 	  "github": "GitHub"
 	},
 	 "homepage": {
-	    "mainTitle": "Bezpieczny Masari Wallet",
-	    "tagLine": "Najprostrzy sposób na używanie Masari - wszędzie o każdej porze",
+	    "mainTitle": "Bezpieczny WAZN Wallet",
+	    "tagLine": "Najprostrzy sposób na używanie WAZN - wszędzie o każdej porze",
 	    "actions": {
 	    "loadWallet": "Otwórz mój portfel",
 	    "importWallet": "Zaimportuj portfel",
@@ -81,7 +81,7 @@
    },
    "technology": {
      "title": "Unikalna Technologia",
-     "description": "Podłączony bezpośrednio do sieci Masari"
+     "description": "Podłączony bezpośrednio do sieci WAZN"
    },
     "openSource": {
      "title": "W pełni Open-source",
@@ -105,7 +105,7 @@
         "emptyWallet": "Obecnie nie masz środków w tym portfelu.",
         "waitSync": "Poczekaj, aż portfel zostanie zaktualizowany.",
         "beReallyPatient": "Wstępna konfiguracja może zająć trochę czasu...",
-        "getMSRAddress": "Odbierz MSR"
+        "getWAZNAddress": "Odbierz WAZN"
       },
       "txDetails":{
         "title":"Szczegóły stransakcji",
@@ -142,7 +142,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"To było proste. Twoje konto jest gotowe!",
-		"subtitle":"Bądź gotowy do użycia Masari, jak nigdy dotąd",
+		"subtitle":"Bądź gotowy do użycia WAZN, jak nigdy dotąd",
 		"passwordSelectionBlock":{
 		  "label":"Chroń swój portfel"
 		},
@@ -165,8 +165,8 @@
 		}
   },
     "disclaimerBlock":{
-		"title":"Ryzyko użycia Portfela Masari",
-		"content":"Portfel Masari jest interfejsem internetowym. Pomaga ci używać Masari bez uruchamiania pełnego węzła Masari. <br/>Zalecamy traktowanie Masari-Wallet tak, jakbyś traktował swój rzeczywisty portfel."
+		"title":"Ryzyko użycia Portfela WAZN",
+		"content":"Portfel WAZN jest interfejsem internetowym. Pomaga ci używać WAZN bez uruchamiania pełnego węzła WAZN. <br/>Zalecamy traktowanie WAZN-Wallet tak, jakbyś traktował swój rzeczywisty portfel."
 	  }
   },
   "donatePage":{
@@ -176,9 +176,9 @@
     "title":"Portfel Web",
     "content":"Ten portfel internetowy został opracowany przez Gnock w wolnym czasie.<br/>Jeśli chcesz pomóc w rozwoju, pomóc zapłacić za serwery i podobnie jak ta aplikacja, rozważ darowiznę: <br/><br/>"
   },
-    "MasariFundBlock":{
-      "title":"Masari Deweloper fundusz",
-      "content":"Aby wspomóc Masari, możesz przekazać darowiznę na te adresy"
+    "WAZNFundBlock":{
+      "title":"WAZN Deweloper fundusz",
+      "content":"Aby wspomóc WAZN, możesz przekazać darowiznę na te adresy"
   }
   },
   "supportPage":{
@@ -187,12 +187,12 @@
     "getInTouchBlock":{
       "title":"Bądźmy w kontakcie!",
       "content":"Czy masz pomysły lub opinie, które mogą pomóc nam ulepszyć portfel? Skontaktuj się z nami!",
-      "discord":"Masari Discord"
+      "discord":"WAZN Discord"
     }
   },
   "networkPage":{
     "title":"Statystki Sieci",
-    "subtitle":"Spostrzeżenia na temat sieci Masari",
+    "subtitle":"Spostrzeżenia na temat sieci WAZN",
     "statsBlock":{
       "hashrate":"Prędkość sieci",
       "height":"Wysokośc bloku",
@@ -202,7 +202,7 @@
     }
   },
   "sendPage":{
-    "title":"Wyślij MSR",
+    "title":"Wyślij WAZN",
     "sendBlock":{
       "address":{
         "label":"Adres dotacji",
@@ -232,7 +232,7 @@
     },
     "thankYouDonationModal":{
       "title":"Dziękuję za darowiznę!",
-      "content":"Twoja pomoc jest doceniana. <br/>Ta darowizna pomoże ulepszyć Masari",
+      "content":"Twoja pomoc jest doceniana. <br/>Ta darowizna pomoże ulepszyć WAZN",
       "confirmText":"OK"
     },
     "transferSentModal":{
@@ -269,7 +269,7 @@
 	  }
 	},
   "receivePage":{
-	  "title":"Odbierz MSR",
+	  "title":"Odbierz WAZN",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Twój adres, aby otrzymać fundusze:",
@@ -297,7 +297,7 @@
 	},
   "miningPage":{
   	  "title":"Kop bezpośrednio w przeglądarce",
-  	  "subtitle":"Wspieraj sieć przez wydobycie i zostań nagrodzony w MSR",
+  	  "subtitle":"Wspieraj sieć przez wydobycie i zostań nagrodzony w WAZN",
   	  "parameterBlock":{
   		"title":"Parametry",
   		"labelDestinationAddress":"Portfel do kopania",
@@ -311,7 +311,7 @@
   		"hashrate":"Prędkość",
   		"maxHashrate":"Maksymalna prędkość",
   		"dedicatedHardware":"Dzięki dedykowanemu oprogramowaniu i sprzętowi górniczemu możesz zarabiać więcej i pomagać w decentralizacji sieci.",
-      "miningHandledBy":"To wydobycie jest obsługiwane przez kopalnie get.masaricoin.com"
+      "miningHandledBy":"To wydobycie jest obsługiwane przez kopalnie http://pool.wazn.io"
 	  }
 	},
 	"settingsPage":{

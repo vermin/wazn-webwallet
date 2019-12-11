@@ -1,11 +1,11 @@
 code is based on / largely copied from
 
-https://github.com/noahdesu/xmonarch 
+https://github.com/noahdesu/xmonarch
 
 which is based on the monero code.
 
 
-
+Copyright (c) 2019 WAZN Project
 Copyright (c) 2014-2018, The Monero Project
 
 All rights reserved.

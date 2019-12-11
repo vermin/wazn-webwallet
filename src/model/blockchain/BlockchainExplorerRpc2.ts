@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 2018, Gnock
  * Copyright (c) 2018, The Masari Project
+ * Copyright (c) 2019 WAZN Project
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  *
@@ -50,7 +51,7 @@ export class BlockchainExplorerRpc2 implements BlockchainExplorer{
 	}
 
 	// getDaemonUrl(){
-	// 	return this.testnet ? 'http://localhost:48081/' : 'http://localhost:38081/';
+	// 	return this.testnet ? 'http://localhost:22787/' : 'http://localhost:11787/';
 	// }
 
 	scannedHeight : number = 0;

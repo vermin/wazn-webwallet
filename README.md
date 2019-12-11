@@ -1,4 +1,4 @@
-Official WAZN Web Wallet
+WAZN Web Wallet
 ======================
 
 [![License](https://img.shields.io/badge/license-EUPL--1.2-red)](https://opensource.org/licenses/EUPL-1.2)

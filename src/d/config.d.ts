@@ -9,8 +9,8 @@ declare var config : {
 	testnetExplorerUrlBlock: string,
 	testnet: boolean,
 	coinUnitPlaces: number,
-	txMinConfirms: number,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
-	txCoinbaseMinConfirms: number, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in Monero
+	txMinConfirms: number,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in WAZN
+	txCoinbaseMinConfirms: number, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in WAZN
 	coinSymbol: string,
 	openAliasPrefix: string,
 	coinName: string,
