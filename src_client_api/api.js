@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2018, Gnock
  * Copyright (c) 2018, The Masari Project
- * Copyright (c) 2019 WAZN Project
+ * Copyright (c) 2019 Project WAZN
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  *
@@ -17,7 +17,7 @@
 var WaznApi = new function(){
 
 	this.ready = false;
-	this.apiDomain = 'http://localhost:11787';
+	this.apiDomain = 'http://localhost:38090';
 	this.timeoutErrorTime = 10000;
 	this.timeoutError = 10000;
 

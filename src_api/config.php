@@ -1,7 +1,10 @@
 <?php
 
-$daemonAddress = getenv('daemon_address') !== false ? getenv('daemon_address') : 'localhost';
-$rpcPort = getenv('daemon_rpc_port') !== false ? (int)getenv('daemon_rpc_port') : 11787;
+$testnet = false;
+$cacheLocation = __DIR__.'/'.($testnet ? 'cache-testnet' : 'cache');
+$daemonAddress = '95.179.152.61';
+$rpcPort = $testnet ? 11787 : 11787;
+$coinSymbol = 'WAZN';
 
 function transmitRequest($endpoint){
 	global $daemonAddress;

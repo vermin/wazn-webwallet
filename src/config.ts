@@ -1,16 +1,10 @@
 let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	apiUrl:typeof window !== 'undefined' && window.location ? window.location.href.substr(0,window.location.href.lastIndexOf('/')+1)+'api/' : 'https://wallet.wazn.io/api/',
-	trustedDaemonsAddresses:[
-		'https://wallet.wazn.io:11790/'
-	],
-	phpRelay:typeof window !== 'undefined' ? true : false,
+	trustedDaemonsAddresses: "95.179.152.61:11787",
 	mainnetExplorerUrl: "http://explorer.wazn.io/",
 	mainnetExplorerUrlHash: "http://explorer.wazn.io/tx/{ID}",
 	mainnetExplorerUrlBlock: "http://explorer.wazn.io/block/{ID}",
-	testnetExplorerUrl: "http://testnet.wazn.io/",
-	testnetExplorerUrlHash: "http://testnet.wazn.io/tx/{ID}",
-	testnetExplorerUrlBlock: "http://testnet.wazn.io/block/{ID}",
 	testnet: false,
 	coinUnitPlaces: 6,
 	txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in WAZN

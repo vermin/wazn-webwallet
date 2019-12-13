@@ -25,6 +25,6 @@ Encryption is done with a certified library, [Tweetnacl.Js.](https://github.com/
 ## License
 ```
 Licensed under the EUPL-1.2
-Copyright (c) 2019 WAZN Project
+Copyright (c) 2019 Project WAZN
 Copyright (c) 2018 The Masari Project
 ```
