@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="dev.jerme.wenwallet" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>WenWallet</name>
+<widget id="wazn-webwallet" version="0.9.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>WAZN Webwallet</name>
     <description>
-        Wen Wallet mobile app.
+        WAZN Webwallet mobile app.
     </description>
-    <author href="https://github.com/jerme404/wen-wallet">
-        JerMe404
+    <author href="https://github.com/vermin/wazn-webwallet">
+        vermin
     </author>
     <!-- this hook will point your config.xml to the DevServer on Serve -->
     <hook type="after_prepare" src="../node_modules/vue-cli-plugin-cordova/serve-config-hook.js" />

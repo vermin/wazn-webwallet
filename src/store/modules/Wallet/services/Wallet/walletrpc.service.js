@@ -26,7 +26,7 @@ const rpcMethods = {
     transfer: 'transfer'
 };
 
-const localStorageRpc = 'wenRpc';
+const localStorageRpc = 'waznRpc';
 
 let _rpcLogin = new WeakMap();
 let _walletName = new WeakMap();

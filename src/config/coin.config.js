@@ -1,9 +1,9 @@
 export default {
-    coinName: 'NERVA',
-    coinSymbol: 'XNV',
-    coinUnitPlaces: 12,
-    coinUriPrefix: 'nerva:',
-    addressPrefix: 0x3800,
-    integratedAddressPrefix: 0x7081,
-    subAddressPrefix: 0x1080
+    coinName: 'WAZN',
+    coinSymbol: 'WAZN',
+    coinUnitPlaces: 6,
+    coinUriPrefix: 'wazn:',
+    addressPrefix: 0x137130,
+    integratedAddressPrefix: 0x3bab30,
+    subAddressPrefix: 0x2fab30
 };

@@ -21,7 +21,7 @@ export default {
 
                 Toastify(Object.assign({
                     text: text,
-                    className: 'wen-toast wen-toast-info',
+                    className: 'wazn-toast wazn-toast-info',
                 }, toastOptions)).showToast();
             },
 
@@ -33,7 +33,7 @@ export default {
 
                 Toastify(Object.assign({
                     text: text,
-                    className: 'wen-toast wen-toast-success',
+                    className: 'wazn-toast wazn-toast-success',
                 }, toastOptions)).showToast();
             },
 
@@ -45,7 +45,7 @@ export default {
 
                 Toastify(Object.assign({
                     text: text,
-                    className: 'wen-toast wen-toast-error',
+                    className: 'wazn-toast wazn-toast-error',
                 }, toastOptions)).showToast();
             }
         };

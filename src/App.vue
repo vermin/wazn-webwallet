@@ -139,10 +139,10 @@ body {
 .no-grow {
     flex-grow: 0;
 }
-.nerva-gradient {
+.wazn-gradient {
     background-image: linear-gradient( 135deg, rgba(85, 168, 191, 1) 0%, rgba(99, 88, 145, 1) 100%);
 }
-.wen-toast {
+.wazn-toast {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -156,13 +156,13 @@ body {
     -o-user-select: none;
     -moz-user-select: none;
 }
-.wen-toast-info {
+.wazn-toast-info {
     box-shadow: 3px 0px 0px 0px #39A0ED inset;
 }
-.wen-toast-success {
+.wazn-toast-success {
     box-shadow: 3px 0px 0px 0px #0EB384 inset;
 }
-.wen-toast-error {
+.wazn-toast-error {
     box-shadow: 3px 0px 0px 0px #F2555A inset;
 }
 </style>

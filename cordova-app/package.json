@@ -1,11 +1,11 @@
 {
-    "name": "dev.jerme.wenwallet",
-    "displayName": "WenWallet",
-    "version": "1.0.0",
-    "description": "Wen Wallet mobile app.",
+    "name": "wazn-webwallet",
+    "displayName": "WAZN Webwallet",
+    "version": "0.9.0",
+    "description": "WAZN Webwallet mobile app.",
     "main": "index.js",
     "scripts": {},
-    "author": "JerMe404 (https://github.com/jerme404)",
+    "author": "vermin (https://github.com/vermin)",
     "dependencies": {
         "cordova-android": "^7.1.4",
         "cordova-ios": "^4.5.5",
